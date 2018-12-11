@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+</IfModule>
+
+
+
+
+ServerSignature Off
+AddDefaultCharset UTF-8
+
+ErrorDocument 404 /error.php
+
+#RewriteRule ^ajax.?$ ajax.php [NC, L]
