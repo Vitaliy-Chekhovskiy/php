@@ -2,6 +2,7 @@
     <h5 class="my-0 mr-md-auto font-weight-normal">@KERATIN_STUDIO_IRPIN</h5>
     <nav class="my-2 my-md-0 mr-md-3">
         <a class="btn btn-outline-primary mr-2 mb-2" href="/">Главная</a>
+        <a class="btn btn-outline-primary mr-2 mb-2" href="/contacts.php">Контакты</a>
     </nav>
     <?php
     if ($_COOKIE['log'] != '')
